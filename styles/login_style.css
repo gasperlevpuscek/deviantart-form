@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 100vh;
+    background-color: rgb(62, 65, 62);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.root {
+    width: 856px;
+    height: 720px;
+    background-color: whitesmoke;
+    display: flex;
+
+}
+
+.left {
+    width: 48%;
+    height: 100%;
+    background-color: darkgray;
+}
+
+.right {
+    width: 52%;
+    height: 100%;
+}
+
+
+.text {
+    padding: 144px 56px 40px 56px;
+}
+
+#joinfont {
+    font-size: 40px;
+    text-transform: uppercase;
+}
