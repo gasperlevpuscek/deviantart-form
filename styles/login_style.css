@@ -3,7 +3,29 @@
     padding: 0;
 }
 
-body {
+body {}
+
+.svg {
+    position: absolute;
+    top: 13px;
+    left: 13px;
+
+}
+
+.svg_icon {
+  width: 36px;
+  height: auto;
+  fill: rgb(90, 236, 151); /* če želiš, da pot postane vidna v beli barvi */
+}
+
+.svg_text {
+    fill: white;
+    height: 36px;
+    width: auto;
+    position: absolute;
+}
+
+.root {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     height: 100vh;
     background-color: rgb(62, 65, 62);
@@ -12,29 +34,26 @@ body {
     display: flex;
 }
 
+
 .main {
     width: 856px;
     height: 720px;
     background-color: whitesmoke;
     display: flex;
-
 }
 
 .left {
+    position: relative;
     display: flex;
     width: 416px;
     height: 100%;
     background-color: darkgray;
 }
 
-.right {
-    width: 440px;
-    display: flex;
-}
+.left svg {
+    height: 100px;
+    width: 100px;
 
-
-.text {
-    padding: 144px 56px 40px;
 }
 
 #joinfont {
@@ -42,14 +61,23 @@ body {
     text-transform: uppercase;
 }
 
-.login_side {
-    position: absolute;
-    width: 344px;
-    height: 512px;
-    margin: 72px 48px 40px;
+
+
+.right {
+    width: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.login_side {
+    width: 80%;
+    max-width: 340px;
+}
 
+.text {
+    padding: 144px 56px 40px;
+}
 
 .username_div {
     width: 100%;
@@ -95,17 +123,22 @@ body {
 .divider div {
     width: 100%;
     height: 1px;
-    background: rgb(181, 181, 181);
+    background: #ccc;
 }
 
 .dif_login a {
-
-    display: block;
-    border: 1px solid gray;
-    padding: 30px
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    margin-top: 8px;
+    color: gray;
+    cursor: pointer;
 }
 
 .dif_login img {
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    
 }
