@@ -3,13 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Log In | DeviantArt</title>
-    <link rel="stylesheet" href="styles/login_style.css">
+    <title>Join | DeviantArt</title>
+    <link rel="stylesheet" href="../styles/join-step1_style.css">
 </head>
 
 <body>
     <div class="root">
-
         <div class="svg">
             <svg class="svg_icon" viewBox="0 0 100 167" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -34,107 +33,86 @@
                             or buy and sell work – you can do it all here.</p>
 
                     </div>
-
-
-
-
                 </div>
 
             </div>
 
             <div class="right">
                 <div class="form_side">
-
-                    <h2>Log In</h2>
+                    <h2>Join DeviantArt</h2>
                     <div class="login_div">
+
+
+
+
                         <div class="form_div">
+                            <div class="dif_login">
+                                <a>
+                                    <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
+                                        alt="google_svg">
+                                    Login with Google
+                                </a>
+
+                                <a>
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+                                        alt="apple_svg">
+                                    <span>Login with Apple</span>
+                                </a>
+                                <a>
+                                    <img src="https://st.deviantart.net/eclipse/sisu/facebook-signin-logo.svg"
+                                        alt="Facebook logo">
+
+                                    <span>Login with Facebook</span>
+                                </a>
+                            </div>
+
+
+                            <div class="divider">
+                                <div></div>
+                                <span>or</span>
+                                <div></div>
+                            </div>
+
+
                             <form class="login_form" action="temp" method="POST">
-                                <div class="username_div">
 
-                                    <label id="username_label" for="username_field">
-                                        <span id="username_font">Username</span>
-                                    </label>
-
-                                    <input type="text" id="username_field" name="username">
-                                    <div class="spacer_32px"></div>
-                                </div>
-                                <div class="iks">
-                                    <div>
-                                        <input type="checkbox" id="keep_logged_in">
-                                        <label for="keep_logged_in" id="login_text">Keep me logged in</label>
-                                    </div>
-                                    <div>
-                                        <a href="" id="text_forgot">Forgot username or password?</a>
-                                    </div>
-                                </div>
-
-                                <button id="next_button"><b>Next</b></button>
-
-                                <div class="divider">
-                                    <div></div>
-                                    <span>or</span>
-                                    <div></div>
+                                <div class="username_form">
+                                    <label for="username">Add your email</label>
+                                    <input id="username" name="username" type="text">
                                 </div>
 
 
-
-                                <div class="dif_login">
-                                    <a>
-                                        <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
-                                            alt="google_svg">
-                                        Login with Google
-                                    </a>
-
-                                    <a>
-                                        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
-                                            alt="apple_svg">
-                                        <span>Login with Apple</span>
-                                    </a>
-                                    <a>
-
-
-
-                                        <img src="https://st.deviantart.net/eclipse/sisu/facebook-signin-logo.svg"
-                                            alt="Facebook logo">
-
-                                        <span>Login with Facebook</span>
-                                    </a>
+                                <div class="password_form">
+                                    <label for="password">Choose a password</label>
+                                    <input id="password" name="password" type="password">
                                 </div>
 
 
+                                <div class="min_text">
+                                    <p>Min 6 characters, numbers & letters</p>
+                                </div>
 
+                                <button class="continue_button"><b>Continue with Email</b></button>
                             </form>
-
-
-
-
 
                         </div>
 
-                        <p class="join_part">Become a Deviant
-                            <a href="forms/join-step1.html" class="join_link_font"><b>Join DeviantArt</b></a>
+                        <p class="join_part">Already a member?
+                            <a href="../index.html" class="join_link_font">Log in</a>
                         </p>
 
+
+                        <div class="footer">
+                            <p>By logging in to DeviantArt, I confirm that I have read and agree to the DeviantArt
+                                <a href="">Terms of service</a>,
+                                <a href="">Privacy Policy</a>
+                                , and to recieve emails and updates.
+                            </p>
+                        </div>
                     </div>
-
-                    <div class="footer">
-                        <p>By logging in to DeviantArt, I confirm that I have read and agree to the DeviantArt
-                            <a href="">Terms of service</a>,
-                            <a href="">Privacy Policy</a>
-                            , and to recieve emails and updates.
-                        </p>
-                    </div>
-
-
-
-
-
-
                 </div>
-
             </div>
         </div>
-    </div>
 </body>
 
 </html>

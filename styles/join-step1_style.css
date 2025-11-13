@@ -48,7 +48,7 @@ body {
 }
 
 .left {
-    background-image: url(https://st.deviantart.net/eclipse/sisu/image-4-739957234.png);
+    background-image: url(https://st.deviantart.net/eclipse/sisu/image-3-84669592.png);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -86,21 +86,6 @@ body {
 }
 
 
-
-
-.left svg {
-    height: 100px;
-    width: 100px;
-
-}
-
-#joinfont {
-    font-size: 40px;
-    text-transform: uppercase;
-}
-
-
-
 .right {
     width: 440px;
     position: relative;
@@ -118,77 +103,71 @@ body {
 }
 
 
-.login_div {
-    height: 100%;
-}
-
-.form_div {
-    margin: 40px 0 24px;
-}
-
-.login_form {
-    width: 335px;
-}
-
-
-.username_div {
-    width: 100%;
-    background-color: white;
-}
-
-#username_font {
-    font-weight: bold;
-    font-size: 14px;
-}
-
-
-#username_label {
-    margin-bottom: 6px;
+.username_form {
     display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    width: 100%;
 }
 
+.username_form label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
 
-#username_field {
+.username_form input {
     width: 100%;
     height: 40px;
-    margin-bottom: 4px;
     border: 1px solid #ccc;
-    border-radius: 2px;
+    padding: 0 12px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.username_form input:focus {
+    border-color: #00e59b;
 }
 
 
 
 
-.iks {
-    justify-content: space-between;
+.password_form {
     display: flex;
-    height: 36px;
+    flex-direction: column;
+    margin-bottom: 16px;
+    width: 100%;
+}
 
+.password_form label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.password_form input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding: 0 12px;
+    box-sizing: border-box;
+    outline: none;
 }
 
 
-
-#login_text {
-    align-items: center;
-    font-size: 13px;
-    margin-left: 8px;
+.password_form input:focus {
+    border-color: #00e59b;
 }
 
-#text_forgot {
+
+.min_text {
+    font-size: 14px;
+    margin-bottom: 20px;
     color: gray;
-    font-size: 12px;
-    text-decoration: underline;
-    margin-top: 2px;
-    margin-bottom: 8px;
-    display: block;
-
 }
 
-#login_box {
-    margin: 10px;
-}
 
-#next_button {
+.continue_button {
     background-image: linear-gradient(to right, #00f2fc, #00ff8d);
     width: 100%;
     height: 40px;
@@ -197,6 +176,30 @@ body {
     cursor: pointer;
     padding: 0 24px;
     margin-bottom: 16px;
+
+}
+
+
+
+.login_div {
+    height: 100%;
+}
+
+.form_div {
+    margin: 32px 0 24px;
+}
+
+
+
+#continue_button {
+    background-image: linear-gradient(to right, #00f2fc, #00ff8d);
+    width: 100%;
+    height: 40px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    padding: 0 24px;
+    margin-bottom: 8px;
 }
 
 
@@ -235,17 +238,6 @@ body {
 
 }
 
-
-
-.join_part {
-    font-size: 14px;
-}
-
-
-.spacer_32px {
-    height: 32px;
-}
-
 h2 {
     margin: 0 0 3px;
     font-size: 30px;
@@ -258,13 +250,24 @@ h2 {
     margin-left: 4px;
 }
 
-
-
-#keep_logged_in {
-    width: 20px;
-    height: 20px;
-    color: #00e59b;
+.join_part {
+    font-size: 14px;
 }
+
+
+
+
+.join_link_font {
+    color: #00e59b;
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+
+
+
+
+
 
 
 .footer {
