@@ -118,14 +118,15 @@ body {
 }
 
 
-
+.login_div{
+    height: 100%;
+}
 
 .form_div {
-    margin: 40px 0 53px;
+    margin: 40px 0 24px;
 }
 
 .login_form {
-
     width: 335px;
 }
 
@@ -236,6 +237,11 @@ body {
 
 
 
+.join_part{
+    font-size: 14px;
+}
+
+
 .spacer_32px {
     height: 32px;
 }
@@ -263,4 +269,7 @@ h2 {
 
 .footer {
     width: 310px;
+    font-size: 12px;
+    text-decoration-color: gray;
+    color: gray;
 }
