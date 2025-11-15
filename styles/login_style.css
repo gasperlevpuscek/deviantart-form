@@ -3,36 +3,32 @@
     padding: 0;
 }
 
+
 body {
     font-family: Helvetica, sans-serif, Arial;
     background-image: url("https://st.deviantart.net/signinup/sisu_bg-min.png");
     background-repeat: repeat;
     background-size: cover;
     background-color: black;
+    cursor: default;
 }
+
 
 .svg {
     height: 36px;
     position: absolute;
-    top: 66px;
     left: 76px;
-
+    top: 13px;
 }
 
-.svg_icon {
+
+#deviant_logo {
+    height: 136px;
     width: auto;
-    height: 36px;
-    fill: #00e59b;
 }
 
-.svg_text {
-    width: 111px;
-    height: 36px;
-    fill: white;
-}
 
 .root {
-
     height: 100vh;
     justify-content: center;
     align-items: center;
@@ -43,9 +39,10 @@ body {
 .main {
     width: 856px;
     height: 720px;
-    background-color: whitesmoke;
+    background-color: white;
     display: flex;
 }
+
 
 .left {
     background-image: url(https://st.deviantart.net/eclipse/sisu/image-4-739957234.png);
@@ -61,6 +58,7 @@ body {
 
 }
 
+
 .join_font {
     background: rgba(0, 0, 0, 0.2);
     padding: 144px 56px 40px;
@@ -70,12 +68,14 @@ body {
 
 }
 
+
 .left_join_upper {
     margin-bottom: 24px;
     color: white;
     width: 100%;
     font-size: 13px;
 }
+
 
 .left_join_upper h1 {
     width: 221px;
@@ -86,13 +86,12 @@ body {
 }
 
 
-
-
 .left svg {
     height: 100px;
     width: 100px;
 
 }
+
 
 #joinfont {
     font-size: 40px;
@@ -114,7 +113,6 @@ body {
     width: 100%;
     height: 100%;
     display: flex;
-
 }
 
 
@@ -122,9 +120,11 @@ body {
     height: 100%;
 }
 
+
 .form_div {
     margin: 40px 0 24px;
 }
+
 
 .login_form {
     width: 335px;
@@ -133,8 +133,8 @@ body {
 
 .username_div {
     width: 100%;
-    background-color: white;
 }
+
 
 #username_font {
     font-weight: bold;
@@ -157,15 +157,11 @@ body {
 }
 
 
-
-
 .iks {
     justify-content: space-between;
     display: flex;
     height: 36px;
-
 }
-
 
 
 #login_text {
@@ -184,9 +180,11 @@ body {
 
 }
 
+
 #login_box {
     margin: 10px;
 }
+
 
 #next_button {
     background-image: linear-gradient(to right, #00f2fc, #00ff8d);
@@ -209,13 +207,12 @@ body {
     margin-bottom: 8px;
 }
 
+
 .divider div {
     width: 100%;
     height: 1px;
     background: #ccc;
 }
-
-
 
 
 .dif_login a {
@@ -228,13 +225,12 @@ body {
     font-size: 14px;
 }
 
+
 .dif_login img {
     width: 20px;
     height: 20px;
     margin-right: 8px;
-
 }
-
 
 
 .join_part {
@@ -245,6 +241,7 @@ body {
 .spacer_32px {
     height: 32px;
 }
+
 
 h2 {
     margin: 0 0 3px;
@@ -257,7 +254,6 @@ h2 {
     text-decoration: none;
     margin-left: 4px;
 }
-
 
 
 #keep_logged_in {

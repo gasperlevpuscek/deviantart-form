@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Helvetica, sans-serif, Arial;
+    background-image: url("https://st.deviantart.net/signinup/sisu_bg-min.png");
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: black;
+    cursor: default;
+}
+
+
+.svg {
+    height: 36px;
+    position: absolute;
+    left: 76px;
+    top: 13px;
+}
+
+
+#deviant_logo {
+    height: 136px;
+    width: auto;
+}
+
+
+.root {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.main {
+    width: 856px;
+    height: 720px;
+    background-color: whitesmoke;
+    display: flex;
+}
+
+
+.left {
+    background-image: url(https://st.deviantart.net/eclipse/sisu/image-3-84669592.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #00e59b;
+    width: 416px;
+    height: 100%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.join_font {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 144px 56px 40px;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+
+
+.left_join_upper {
+    margin-bottom: 24px;
+    color: white;
+    width: 100%;
+    font-size: 13px;
+}
+
+
+.left_join_upper h1 {
+    width: 221px;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 0 0 24px;
+}
+
+
+.right {
+    width: 440px;
+    position: relative;
+    background-color: white;
+}
+
+
+.form_side {
+    padding: 72px 48px 40px;
+    box-sizing: border-box;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+
+.reset_button {
+    position: absolute;
+    top: 20px;
+    left: 48px;
+    border: none;
+    background-color: inherit;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.reset_button:hover {
+    color: #00e59b;
+    fill: #00e59b;
+}
+
+
+.password_form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+
+.password_form label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+
+.password_form input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding: 0 12px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+.password_form input:focus {
+    border-color: #00e59b;
+}
+
+
+.min_text {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+
+.iks {
+    justify-content: space-between;
+    display: flex;
+    height: 36px;
+}
+
+
+#login_text {
+    align-items: center;
+    font-size: 13px;
+    margin-left: 8px;
+}
+
+
+#text_forgot {
+    color: gray;
+    font-size: 12px;
+    text-decoration: underline;
+    margin-top: 2px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+
+#login_box {
+    margin: 10px;
+}
+
+
+.continue_button {
+    background-image: linear-gradient(to right, #00f2fc, #00ff8d);
+    width: 100%;
+    height: 40px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    padding: 0 24px;
+    margin-bottom: 16px;
+}
+
+
+.login_div {
+    height: 100%;
+}
+
+
+.form_div {
+    margin: 32px 0 24px;
+}
+
+
+h2 {
+    margin: 0 0 3px;
+    font-size: 30px;
+}
+
+
+.join_link_font {
+    color: #00e59b;
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+
+.join_part {
+    font-size: 14px;
+}
+
+
+.join_link_font {
+    color: #00e59b;
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+
+.footer {
+    width: 310px;
+    font-size: 12px;
+    text-decoration-color: gray;
+    color: gray;
+}
