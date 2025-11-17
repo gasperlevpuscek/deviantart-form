@@ -39,13 +39,13 @@ body {
 .main {
     width: 856px;
     height: 720px;
-    background-color: whitesmoke;
+    background-color: white;
     display: flex;
 }
 
 
 .left {
-    background-image: url(https://st.deviantart.net/eclipse/sisu/image-3-84669592.png);
+    background-image: url(https://st.deviantart.net/eclipse/sisu/image-6-774808863.png);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,6 +55,7 @@ body {
     display: flex;
     position: relative;
     overflow: hidden;
+
 }
 
 
@@ -64,6 +65,7 @@ body {
     justify-content: space-between;
     display: flex;
     width: 100%;
+
 }
 
 
@@ -80,13 +82,27 @@ body {
     text-transform: uppercase;
     font-size: 40px;
     margin: 0 0 24px;
+
 }
+
+
+.left svg {
+    height: 100px;
+    width: 100px;
+
+}
+
+
+#joinfont {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
 
 
 .right {
     width: 440px;
     position: relative;
-    background-color: white;
 }
 
 
@@ -100,64 +116,75 @@ body {
 }
 
 
-.reset_button {
-    position: absolute;
-    top: 20px;
-    left: 48px;
-    font-size: 14px;
-    text-decoration: none;
-    cursor: pointer;
-    color: black;
-}
-
-.reset_button:hover {
-    color: #00e59b;
-    fill: #00e59b;
+.login_div {
+    height: 100%;
 }
 
 
-.password_form {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 16px;
+.form_div {
+    margin: 40px 0 24px;
+}
+
+
+.login_form {
+    width: 335px;
+}
+
+
+
+.username_div {
     width: 100%;
+    margin-bottom: 24px;
 }
 
 
-.password_form label {
-    font-size: 14px;
+#username_font {
     font-weight: bold;
-    margin-bottom: 4px;
+    font-size: 14px;
 }
 
 
-.password_form input {
+#username_label {
+    margin-bottom: 6px;
+    display: flex;
+}
+
+
+#username_field {
     width: 100%;
     height: 40px;
+    margin-bottom: 4px;
     border: 1px solid #ccc;
-    padding: 0 12px;
-    box-sizing: border-box;
-    outline: none;
+    border-radius: 2px;
 }
 
 
-.password_form input:focus {
-    border-color: #00e59b;
-}
 
-
-.min_text {
-    font-size: 14px;
-    margin-bottom: 20px;
-    color: gray;
-}
-
-
-.iks {
-    justify-content: space-between;
+.birth_selector {
     display: flex;
-    height: 36px;
+    flex-direction: column;
+    margin-bottom: 24px;
 }
+
+.birth_label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.birth_row {
+    display: flex;
+    gap: 12px;
+}
+
+.birth_select {
+    width: 120px;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
 
 
 #login_text {
@@ -166,7 +193,6 @@ body {
     margin-left: 8px;
 }
 
-
 #text_forgot {
     color: gray;
     font-size: 12px;
@@ -174,6 +200,7 @@ body {
     margin-top: 2px;
     margin-bottom: 8px;
     display: block;
+
 }
 
 
@@ -182,7 +209,7 @@ body {
 }
 
 
-.continue_button {
+#next_button {
     background-image: linear-gradient(to right, #00f2fc, #00ff8d);
     width: 100%;
     height: 40px;
@@ -194,14 +221,46 @@ body {
 }
 
 
-.login_div {
-    height: 100%;
+.divider {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 8px;
 }
 
 
-.form_div {
-    margin: 32px 0 24px;
+.divider div {
+    width: 100%;
+    height: 1px;
+    background: #ccc;
 }
+
+
+.dif_login a {
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgba(190, 187, 187, 0.727);
+    padding: 10px 15px;
+    margin-top: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+.dif_login img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+
+.join_part {
+    font-size: 14px;
+}
+
+
 
 
 h2 {
@@ -217,15 +276,10 @@ h2 {
 }
 
 
-.join_part {
-    font-size: 14px;
-}
-
-
-.join_link_font {
+#keep_logged_in {
+    width: 20px;
+    height: 20px;
     color: #00e59b;
-    text-decoration: none;
-    margin-left: 4px;
 }
 
 
