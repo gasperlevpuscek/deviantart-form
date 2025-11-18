@@ -154,6 +154,11 @@ body {
     margin-bottom: 4px;
     border: 1px solid #ccc;
     border-radius: 2px;
+    outline: none;
+}
+
+#username_field:focus {
+    border-color: #00e59b;
 }
 
 
