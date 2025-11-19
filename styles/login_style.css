@@ -274,3 +274,10 @@ h2 {
     text-decoration-color: gray;
     color: gray;
 }
+
+
+#username_error {
+    color: red;
+    font-size: 13px;
+    display: none;
+}

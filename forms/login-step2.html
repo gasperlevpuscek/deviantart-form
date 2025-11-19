@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="icon" type="image/svg+xml" href="../images/deviantart-icon.svg">
-    <title>Join | DeviantArt</title>
+    <title>Log In | DeviantArt</title>
     <link rel="stylesheet" href="../styles/login-step2_style.css">
 </head>
 
@@ -33,17 +33,20 @@
                 </a>
 
 
-
                 <div class="form_side">
                     <h2>Log In</h2>
                     <div class="login_div">
-
                         <div class="form_div">
                             <form class="login_form" action="temp" method="GET">
                                 <div class="password_form">
                                     <label for="password">Password</label>
                                     <input id="password" name="password" type="password">
                                 </div>
+                                <div class="password_error_div">
+                                    <p class="password_error">The password you entered is incorrect. Please try again.
+                                    </p>
+                                </div>
+
 
                                 <div class="iks">
                                     <div>
@@ -62,19 +65,22 @@
                             <a href="join-step1.html" class="join_link_font">Join DeviantArt</a>
                         </p>
 
+                    </div>
 
-                        <div class="footer">
-                            <p>By logging in to DeviantArt, I confirm that I have read and agree to the DeviantArt
-                                <a href="">Terms of service</a>,
-                                <a href="">Privacy Policy</a>
-                                , and to recieve emails and updates.
-                            </p>
-                        </div>
+                    <div class="footer">
+                        <p>By logging in to DeviantArt, I confirm that I have read and agree to the DeviantArt
+                            <a href="">Terms of service</a>,
+                            <a href="">Privacy Policy</a>
+                            , and to recieve emails and updates.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="../scripts/login_complete.js"></script>
 
 </html>
