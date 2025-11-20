@@ -9,9 +9,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 <b>Author:</b> Gašper Levpušček <br>
                 <b>Class:</b> 4. Rb <br>
                 <b>Project:</b> DeviantArt Form Copy`,
-            imageUrl: "/images/deviantart-icon.svg",
-            imageWidth: 80,     // optional
-            imageHeight: 80,    // optional
+            imageUrl: "../images/deviantart-icon.svg",
+            imageWidth: 80,
+            imageHeight: 80,
             imageAlt: "Project Icon"
         });
     });
