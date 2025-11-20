@@ -61,8 +61,10 @@
                                     <label id="username_label" for="username_field">
                                         <span id="username_font">Pick a username</span>
                                     </label>
-
                                     <input type="text" id="username_field" name="username">
+                                </div>
+                                <div class="username_error_div">
+                                    <p>Your username must only contain letters & numbers.</p>
                                 </div>
 
 
@@ -83,9 +85,11 @@
                                     </div>
                                 </div>
 
+                                <div class="date_error_div">
+                                    <p>You must be at least 13 years old to join DeviantArt.</p>
+                                </div>
 
                                 <button id="next_button"><b>Join</b></button>
-
                             </form>
                         </div>
 
@@ -108,6 +112,8 @@
     </div>
 </body>
 
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="../scripts/join_date_fill.js"></script>
+<script src="../scripts/username_date_check.js"></script>
 
 </html>

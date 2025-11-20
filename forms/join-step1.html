@@ -57,15 +57,24 @@
 
                             <form class="login_form" action="join-step2.html" method="GET">
 
-                                <div class="username_form">
-                                    <label for="username">Add your email</label>
-                                    <input id="username" name="username" type="text">
+                                <div class="email_form">
+                                    <label for="email">Add your email</label>
+                                    <input id="email" name="email" type="text">
                                 </div>
-
+                                <div class="email_error_div">
+                                    <p>Please enter a valid email address.</p>
+                                </div>
 
                                 <div class="password_form">
                                     <label for="password">Choose a password</label>
-                                    <input id="password" name="password" type="password">
+
+                                    <div class="password_input_wrapper">
+                                        <input id="password_input" name="password" type="password">
+                                        <span id="password-strength"></span>
+                                    </div>
+                                </div>
+                                <div class="password_error_div">
+                                    <p>Please enter a password.</p>
                                 </div>
 
 
@@ -96,5 +105,6 @@
         </div>
     </div>
 </body>
+<script src="../scripts/email_password_check.js"></script>
 
 </html>

@@ -134,7 +134,7 @@ body {
 
 .username_div {
     width: 100%;
-    margin-bottom: 24px;
+
 }
 
 
@@ -165,10 +165,23 @@ body {
 }
 
 
+.username_error_div {
+    height: 5px;
+    margin-bottom: 16px;
+    padding: 5px 0;
+}
+
+.username_error_div p {
+    color: red;
+    font-size: 12px;
+    display: none;
+}
+
+
 .birth_selector {
     display: flex;
     flex-direction: column;
-    margin-bottom: 24px;
+
 }
 
 .birth_label {
@@ -188,6 +201,19 @@ body {
     font-size: 14px;
     cursor: pointer;
 }
+
+.date_error_div {
+    height: 5px;
+    margin-bottom: 14px;
+    padding: 5px 0;
+}
+
+.date_error_div p {
+    color: red;
+    font-size: 12px;
+    display: none;
+}
+
 
 
 #next_button {
