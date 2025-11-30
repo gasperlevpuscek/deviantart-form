@@ -25,7 +25,8 @@ form.addEventListener("submit", function (event) {
         title: "Login complete",
         text: "Welcome back!",
         icon: "success",
-        confirmButtonText: "OK"
+        confirmButtonText: "OK",
+        confirmButtonColor: "#00e59b"
     }).then(() => {
         form.submit(); // manually submit if needed
     });

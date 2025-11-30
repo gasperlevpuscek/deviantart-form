@@ -99,8 +99,8 @@ document.addEventListener("DOMContentLoaded", () => {
         Swal.fire({
             title: "Sign in complete!",
             text: "You have successfully signed in!",
-            icon: "success"
-
+            icon: "success",
+            confirmButtonColor: "#00e59b"
         });
     });
 });

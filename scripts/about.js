@@ -12,8 +12,12 @@ document.addEventListener("DOMContentLoaded", () => {
             imageUrl: "../images/deviantart-icon.svg",
             imageWidth: 80,
             imageHeight: 80,
+            confirmButtonColor: "#00e59b",
             imageAlt: "Project Icon"
         });
+
+
+
     });
 
 });
