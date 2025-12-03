@@ -41,6 +41,15 @@ deviantart-form/
 
 ## Pictures
 
+<img src="https://github.com/user-attachments/assets/7d293be3-b1b7-4376-852b-41bd3fa1bbe2" width="80%"/>
+
+<img src="https://github.com/user-attachments/assets/0eab0b10-3cf5-4a6f-8cd9-aab9474faad4" width="80%"/>
+
+<img src="https://github.com/user-attachments/assets/97628780-d6a1-459d-9bcd-6d378e32e1c1" width="80%"/>
+
+<img src="https://github.com/user-attachments/assets/b35ea55a-5dae-4ee1-a4a7-04d3f43695c4" width="80%" />
+
+
 ### HTML Forms
 - **index.html** - Entry point with login form requesting username
 - **login-step2.html** - Second login step for password entry
@@ -77,8 +86,6 @@ Each form step has corresponding CSS files that style the login/registration int
 - **CSS3** - Styling and layout
 - **JavaScript** - Form validation and interactivity
 - **SweetAlert2** - User notifications and alerts
-
-## Validation
 
 ## Validation
 
