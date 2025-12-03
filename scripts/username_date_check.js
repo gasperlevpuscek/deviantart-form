@@ -101,6 +101,10 @@ document.addEventListener("DOMContentLoaded", () => {
             text: "You have successfully signed in!",
             icon: "success",
             confirmButtonColor: "#00e59b"
+        }).then(() => {
+            window.location.href = "../index.html";
+
+
         });
     });
 });

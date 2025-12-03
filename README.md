@@ -78,9 +78,23 @@ Each form step has corresponding CSS files that style the login/registration int
 - **JavaScript** - Form validation and interactivity
 - **SweetAlert2** - User notifications and alerts
 
+## Validation
+
+## Validation
+
+Login credentials are hardcoded in JavaScript in [`username_check.js`](scripts/username_check.js) and [`email_password_check.js`](scripts/email_password_check.js).
+
+**Test Credentials:**
+- **Username:** `user123`
+- **Password:** `password123`
+
 ## Notes
 
 This is a frontend-only implementation for demonstration purposes. Form submissions are not connected to a backend service and validation is client-side only.
+
+## Author 
+
+Gašper Levpušček
 
 ## License
 

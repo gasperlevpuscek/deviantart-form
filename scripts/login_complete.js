@@ -7,20 +7,18 @@ form.addEventListener("submit", function (event) {
 
     const password = passwordField.value.trim();
 
-    // If empty password (or wrong password in your future backend)
-    if (password === "") {
-        // Show error text
+    // Allow ONLY "password132"
+    if (password !== "password123") {
         errorText.style.display = "block";
-        // Add red border to password field
         passwordField.style.border = "1px solid red";
-        return;
+        return; // stop the login process
     }
 
-    // If password is filled → hide error & let it continue
+    // If correct password → hide error
     errorText.style.display = "none";
     passwordField.style.border = "";
 
-    // Show success pop-up
+    // Success popup
     Swal.fire({
         title: "Login complete",
         text: "Welcome back!",
@@ -28,6 +26,6 @@ form.addEventListener("submit", function (event) {
         confirmButtonText: "OK",
         confirmButtonColor: "#00e59b"
     }).then(() => {
-        form.submit(); // manually submit if needed
+        form.submit(); // continue to next page
     });
 });
