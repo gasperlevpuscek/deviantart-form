@@ -1,4 +1,4 @@
-<h1 align="center">DeviantArt Form</h1>
+<h1 align="center">Replica of DeviantArt Form</h1>
 
 A frontend implementation of DeviantArt's login and registration forms, featuring multi-step authentication flows with form validation and user input checking.
 
