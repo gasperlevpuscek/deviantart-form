@@ -89,7 +89,7 @@ Each form step has corresponding CSS files that style the login/registration int
 
 ## Validation
 
-Login credentials are hardcoded in JavaScript in [`username_check.js`](scripts/username_check.js) and [`email_password_check.js`](scripts/email_password_check.js).
+Login credentials are hardcoded in JavaScript in [`username_check.js`](scripts/username_check.js) and [`login_complete.js`](scripts/login_complete.js).
 
 **Test Credentials:**
 - **Username:** `user123`
